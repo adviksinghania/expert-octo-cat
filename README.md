@@ -2,10 +2,26 @@
 ## About
 A concise documentation on getting started with Git &amp; GitHub.
 
+#### Table Of Contents
+
+*   [What is Git ?](#what-is-git-)
+*   [What’s a version control system?](#whats-a-version-control-system)
+*   [What’s a distributed version control system?](#whats-a-distributed-version-control-system)
+*   [Why Git?](#why-git)
+*   [What’s a repository?](#whats-a-repository)
+*   [How GitHub fits in ? :octocat:](#how-github-fits-in--octocat)
+*   [How GitHub works ?](#how-github-works-)
+*   [The GitHub flow](#the-github-flow)
+*   [Installation & Setup](#installation--setup)
+*   [Initialization and Basic Git Commands](#initialization-and-basic-git-commands)
+*   [Learn at your own pace](#learn-at-your-own-pace)
+
 ## What is Git ?
 [Git](https://git-scm.com/) is a distributed version-control system for tracking changes in any set of files, originally designed for coordinating work among programmers cooperating on source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).
 Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer. As with most other distributed version-control systems, and unlike most client–server systems, every Git directory on every computer is a full-fledged repository with complete history and full version-tracking abilities, independent of network access or a central server. Git is free and open-source software distributed under GNU General Public License Version 2.
 _Git is responsible for everything GitHub related that happens locally on your computer_
+
+[Back To Top](#about)
 
 ### What’s a version control system?
 
@@ -16,11 +32,15 @@ A version control system, or VCS, tracks the history of changes as people and te
 -   When were the changes made?
 -   Why were changes needed?
 
+[Back To Top](#about)
+
 ### What’s a distributed version control system?
 
 Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. DVCSs allow full access to every file, branch, and iteration of a project, and allows every user access to a full and self-contained history of all changes. Unlike once popular centralized version control systems, DVCSs like Git don’t need a constant connection to a central repository. Developers can work anywhere and collaborate asynchronously from any time zone.
 
 Without version control, team members are subject to redundant tasks, slower timelines, and multiple copies of a single project. To eliminate unnecessary work, Git and other VCSs give each contributor a unified and consistent view of a project, surfacing work that’s already in progress. Seeing a transparent history of changes, who made them, and how they contribute to the development of a project helps team members stay aligned while working independently.
+
+[Back To Top](#about)
 
 ### Why Git?
 
@@ -32,6 +52,8 @@ According to the latest  [Stack Overflow developer survey](https://insights.stac
 
 -   Businesses using Git can break down communication barriers between teams and keep them focused on doing their best work. Plus, Git makes it possible to align experts across a business to collaborate on major projects.
 
+[Back To Top](#about)
+
 ### What’s a repository?
 
 A  _repository_, or  [Git project](https://git-scm.com/), encompasses the entire collection of files and folders associated with a project, along with each file’s revision history. The file history appears as snapshots in time called  _commits_, and the commits exist as a linked-list relationship, and can be organized into multiple lines of development called  _branches_. Because Git is a DVCS, repositories are self-contained units and anyone who owns a copy of the repository can access the entire codebase and its history. Using the command line or other ease-of-use interfaces, a git repository also allows for: interaction with the history, cloning, creating branches, committing, merging, comparing changes across versions of code, and more.
@@ -40,14 +62,20 @@ Working in repositories keeps development projects organized and protected. Deve
 
 Through platforms like GitHub, Git also provides more opportunities for project transparency and collaboration. Public repositories help teams work together to build the best possible final product.
 
+[Back To Top](#about)
+
 ### How GitHub fits in ? :octocat:
 [GitHub](https://github.com) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 GitHub is a Git hosting repository that provides developers with tools to ship better code through command line features, issues (threaded discussions), pull requests, code review, or the use of a collection of free and for-purchase apps in the GitHub Marketplace. With collaboration layers like the GitHub flow, a community of 15 million developers, and an ecosystem with hundreds of integrations, GitHub changes the way software is built.
 
+[Back To Top](#about)
+
 ### How GitHub works ?
 
 GitHub builds collaboration directly into the development process. Work is organized into repositories, where developers can outline requirements or direction and set expectations for team members. Then, using the GitHub flow, developers simply create a branch to work on updates, commit changes to save them, open a pull request to propose and discuss changes, and merge pull requests once everyone is on the same page.
+
+[Back To Top](#about)
 
 ### The GitHub flow
 
@@ -68,6 +96,8 @@ Developers can find more information about the GitHub flow in the resources prov
 
 -   [Interactive guide](https://guides.github.com/introduction/flow/)
 -   [GitHub Flow video](https://www.youtube.com/watch?v=47E-jcuQz5c&index=1&list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4)
+
+[Back To Top](#about)
 
 ### Installation & Setup
 
@@ -105,6 +135,7 @@ Developers can find more information about the GitHub flow in the resources prov
     ```
 -   Set automatic command line coloring for Git for easy reviewing: ```git config --global color.ui auto```
 
+[Back To Top](#about)
 
 ### Initialization and Basic Git Commands
 
@@ -300,6 +331,8 @@ Next, let's see how we can clone an existing repository and contribute by making
 
 Pull Requests are an area for discussion. I look forward to the PRs and will merge your changes. For other projects, don’t be offended if the project owner rejects your Pull Request, or asks for more information on why it’s been made. It may even be that the project owner chooses not to merge your pull request, and that’s totally okay. Your copy will exist in infamy on the Internet. And who knows–maybe someone you’ve never met will find your changes much more valuable than the original project. Share and share alike!
 
+[Back To Top](#about)
+
 #### Be sure to star this repository, for future references if you found it useful.
 
 ### Learn at your own pace
@@ -319,3 +352,5 @@ The GitHub team has created a library of educational videos and guides to help u
 -   [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)
 
 If you have any doubts, you can reach me on [Twitter](https://twitter.com/SinghaniaAdvik), [LinkedIn](https://www.linkedin.com/in/adviksinghania/), or [Instagram](https://www.instagram.com/half.viking/)
+
+[Back To Top](#about)
