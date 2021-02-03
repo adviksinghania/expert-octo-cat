@@ -1,4 +1,4 @@
-# Expert-Octo-Lamp
+# Expert-Octo-Cat
 ## About
 A concise documentation on getting started with Git &amp; GitHub.
 
