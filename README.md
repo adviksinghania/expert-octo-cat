@@ -268,13 +268,13 @@ Next, let's see how we can clone an existing repository and contribute by making
 -   **Forking:** If you want to contribute to someone else’s project or maybe you’d like to use someone’s project as the starting point for your own, then this process is known as forking.
     Creating a "fork" is producing a personal copy of someone else’s project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit Pull Requests to help make other people’s projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
 -   To fork the this repository, click the **Fork** button in the header of the repository (Upper right corner, under your profile photo).
--   Wait for some time while the forking is in process and the page will reload showing the project as it is. Only the username behind the project name will change. for e.g., it will show ```brucewayne/expert-octo-lamp``` instead of ```adviksinghania/expert-octo-lamp``` if a user with username @brucewayne forks this repository.
+-   Wait for some time while the forking is in process and the page will reload showing the project as it is. Only the username behind the project name will change. for e.g., it will show ```brucewayne/expert-octo-cat``` instead of ```adviksinghania/expert-octo-cat``` if a user with username @brucewayne forks this repository.
 -   If you're getting an error like 'Cannot fork this repository', it maybe because you've forked the repo. If you already have a fork of the original repo, you cannot have another fork.
 -   **Cloning:** Now, you’ve successfully forked the repository, but so far, it only exists on GitHub. To be able to work on the project, you will need to clone it to your computer. Use the ```git clone``` command like this:
     ```bash
-    $ git clone https://github.com/your-username/expert-octo-lamp.git  # Replace your-username with your username :)
+    $ git clone https://github.com/your-username/expert-octo-cat.git  # Replace your-username with your username :)
     ```
--   Navigate into the directory of the repo using ```cd expert-octo-lamp/```
+-   Navigate into the directory of the repo using ```cd expert-octo-cat/```
 -   As told earlier, it's recommended to work on branches when contributing to a project, so here, you'll need to create a branch with name ```patch-yourname``` and replace 'yourname' with your name, e.g.: ```patch-bruce-wayne```. Use the command ```git branch patch-yourname``` to create a new branch.
 -   Then type ```git switch patch-yourname``` to switch to that branch.
 -   These two process can be combined by using the command: ```git switch -c patch-yourname```, where ```-c``` option means creating a branch
@@ -321,9 +321,9 @@ Next, let's see how we can clone an existing repository and contribute by making
     Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
     remote:
     remote: Create a pull request for 'patch-yourname' on GitHub by visiting:
-    remote:      https://github.com/your-username/expert-octo-lamp/pull/new/patch-yourname
+    remote:      https://github.com/your-username/expert-octo-cat/pull/new/patch-yourname
     remote:
-    To https://github.com/your-username/expert-octo-lamp.git
+    To https://github.com/your-username/expert-octo-cat.git
      * [new branch]      patch-yourname -> patch-yourname
     Branch 'patch-yourname' set up to track remote branch 'patch-yourname' from 'origin'.
     ```
