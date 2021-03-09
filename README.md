@@ -126,7 +126,7 @@ Developers can find more information about the GitHub flow in the resources prov
 	Now, open git and say who we are with the following command:
     ```bash
     $ git config --global user.name "Your Name"  # Replace 'Your Name' with your name,
-    $ git config --global user.emal "youremail@example.com"  # and 'youremail@example.com' with you email. Duh!
+    $ git config --global user.email "youremail@example.com"  # and 'youremail@example.com' with you email. Duh!
     ```
 -   You need to set a text editor as default which will be used by git, e.g.: Notepad, [Atom](https://atom.io) (preferred and recommended), [VS Code](https://code.visualstudio.com/), Notepad++, etc:
     ```bash
